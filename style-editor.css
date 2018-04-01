@@ -1,0 +1,78 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #222;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 { 
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight: 500;
+	color:#000;
+	line-height: 1.2em;
+}
+
+h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
+	color:#130e0e;
+}
+
+h1, .h1 { 
+	font-size: 2.857em;
+	line-height: 1.2em;
+}
+
+h2, .h2 { 
+	font-size: 1.75em;
+	line-height: 1.2em;
+	margin-bottom: 0.375em;
+}
+
+h3, .h3 { 
+	font-size: 1.143em;
+	line-height:1.375em;
+}
+
+h4, .h4 { 
+	font-size: 1em;
+	font-weight: 700;
+	line-height:1.429em;
+}
+
+h5, .h5 { 
+	font-size: 0.846em;
+	line-height: 2.09em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a, a:visited { 
+	color: #f04524;
+	text-decoration:none;
+}
+
+a:hover, a:focus { 
+	color: #222;
+	text-decoration:underline;
+}
+pre, code {
+	background: #eee;
+	border: 1px solid #cecece;
+	padding: 10px;
+}
+
+.one-half{
+	-moz-column-count: 2;
+	-moz-column-gap: 0.714em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 0.714em;
+	column-count: 2;
+	column-gap: 0.714em;
+}
+
+.one-third{
+	-moz-column-count: 3;
+	-moz-column-gap: 0.714em;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 0.714em;
+	column-count: 3;
+	column-gap: 0.714em;
+}

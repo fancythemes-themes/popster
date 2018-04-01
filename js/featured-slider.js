@@ -1,0 +1,3 @@
+jQuery(document).ready(function($){
+    $('#featured-slider').flexslider({ directionNav : true, controlNav : false <?php if ( !popster_get_option('popster_featured_auto_slide')) echo ', slideshow:false' ?> <?php if ( !popster_get_option('popster_featured_auto_slide_timer')) echo ', slideshowSpeed:5000'; else echo ', slideshowSpeed:' . popster_get_option('popster_featured_auto_slide_timer') . '000'  ?>, after : flexControlPosition, start : flexControlPosition, before : flexControlHide });
+});

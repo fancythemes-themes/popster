@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: inc/metaboxes.php:43
+msgid " Featured video"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:386
+#: inc/circathemes-helper.php:543
+msgid " of "
+msgstr ""
+
+#. Text in function
+#: comments.php:20
+msgid "% Responses"
+msgstr ""
+
+#. Text in function
+#: functions.php:82
+msgid "%1$s"
+msgstr ""
+
+#. Text in function
+#: search.php:60
+#: archive.php:60
+#: index.php:65
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#. Text in function
+#: comments.php:56
+msgid "(*) Required, Your email will not be published"
+msgstr ""
+
+#. Text in function
+#: functions.php:83
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:605
+msgid "1 Day ago"
+msgstr ""
+
+#. Text in function
+#: functions.php:81
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/ad125.php:86
+msgid "Ads 125, To manage the advertisement, please use the Link Manager (Dashboard->Links) don't forget to set the image field with 125 px width image link, see documentation for more information."
+msgstr ""
+
+#. Text in echo
+#: archive-page.php:50
+#: search.php:106
+#: 404.php:53
+msgid "Archives by Month:"
+msgstr ""
+
+#. Text in echo
+#: archive-page.php:54
+#: search.php:110
+#: 404.php:57
+msgid "Archives by Subject:"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Browse Archives"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Browse Categories"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Browse Pages"
+msgstr ""
+
+#. Text in echo
+#: inc/circathemes-helper.php:385
+msgid "Cannot Retrieved a Related Posts Yet!"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/twitter.php:25
+msgid "Cannot fetch tweets"
+msgstr ""
+
+#. Text in echo
+#: single.php:38
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: footer.php:14
+msgid "CircaThemes"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/ad125.php:86
+msgid "CircaThemes - Ads 125"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/flickr.php:1
+msgid "CircaThemes - Flickr"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/video.php:1
+msgid "CircaThemes - Latest video"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent_comments.php:1
+msgid "CircaThemes - Recent Comments"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent_posts.php:1
+msgid "CircaThemes - Recent Posts"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "CircaThemes - Tabs"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/twitter.php:1
+msgid "CircaThemes - Twitter"
+msgstr ""
+
+#. Text in function
+#: single.php:26
+msgid "Comment closed"
+msgstr ""
+
+#. Text in echo
+#: 404.php:21
+msgid "Error 404, This means that post you are looking for is not available."
+msgstr ""
+
+#. Text in echo
+#: inc/circathemes-helper.php:553
+msgid "Featured"
+msgstr ""
+
+#. Text in echo
+#: inc/circathemes-helper.php:543
+msgid "Featured "
+msgstr ""
+
+#. Text in echo
+#: inc/circathemes-helper.php:605
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: archive-page.php:37
+#: search.php:93
+#: 404.php:40
+msgid "Last 30 Posts"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent_comments.php:1
+#: inc/widgets/recent_comments.php:47
+msgid "Latest Comments"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/flickr.php:1
+#: inc/widgets/flickr.php:27
+msgid "Latest Pictures"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/twitter.php:1
+#: inc/widgets/twitter.php:47
+msgid "Latest Tweet"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/video.php:1
+#: inc/widgets/video.php:56
+msgid "Latest Videos"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:78
+msgid "Link ID"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:77
+msgid "Link rating"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:76
+msgid "Link title"
+msgstr ""
+
+#. Text in echo
+#: search.php:86
+#: 404.php:33
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/flickr.php:26
+msgid "More Photos"
+msgstr ""
+
+#. Text in echo
+#: inc/metaboxes.php:41
+msgid "NOTE: Featured video only works when the selected post format is video format."
+msgstr ""
+
+#. Text in function
+#: search.php:61
+#: archive.php:61
+#: index.php:66
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#. Text in function
+#: search.php:35
+#: inc/widgets/recent_posts.php:53
+#: archive.php:35
+#: index.php:40
+msgid "No Comment"
+msgstr ""
+
+#. Text in function
+#: comments.php:20
+msgid "No Responses"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:83
+msgid "Number of links to show:"
+msgstr ""
+
+#. Text in function
+#: comments.php:20
+msgid "One Response"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:386
+msgid "Page"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:386
+msgid "Page 1 of 1"
+msgstr ""
+
+#. Text in echo
+#: sidebar.php:13
+msgid "Please activate some Widgets."
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Popular Posts"
+msgstr ""
+
+#. Text in echo
+#: inc/metaboxes.php:29
+msgid "Provider"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:79
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: search.php:44
+#: inc/circathemes-helper.php:548
+#: archive.php:44
+#: index.php:49
+msgid "Read Post"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/recent_posts.php:1
+#: inc/widgets/recent_posts.php:67
+#: inc/widgets/tabs.php:1
+msgid "Recent Posts"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Recent Response"
+msgstr ""
+
+#. Text in echo
+#: single.php:52
+msgid "Related Posts"
+msgstr ""
+
+#. Text in function
+#: functions.php:95
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: functions.php:95
+msgid "Search for:"
+msgstr ""
+
+#. Text in echo
+#: search.php:73
+msgid "Search return zero result."
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:64
+msgid "Select Link Category:"
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/ad125.php:74
+msgid "Sort by:"
+msgstr ""
+
+#. Text in echo
+#: search.php:83
+#: 404.php:30
+msgid "Suggestions :"
+msgstr ""
+
+#. Text in function
+#: inc/widgets/tabs.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in echo
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: search.php:88
+#: 404.php:35
+msgid "Try different keywords."
+msgstr ""
+
+#. Text in echo
+#: search.php:90
+#: 404.php:37
+msgid "Try more general keywords."
+msgstr ""
+
+#. Text in echo
+#: search.php:79
+#: 404.php:26
+msgid "Try search something"
+msgstr ""
+
+#. Text in echo
+#: inc/metaboxes.php:37
+msgid "Video ID/URL"
+msgstr ""
+
+#. Text in echo
+#: single.php:36
+msgid "Written by"
+msgstr ""
+
+#. Text in function
+#: comments.php:56
+msgid "Your Comment Here..."
+msgstr ""
+
+#. Text in function
+#: comments.php:56
+msgid "Your Email"
+msgstr ""
+
+#. Text in function
+#: comments.php:56
+msgid "Your Name"
+msgstr ""
+
+#. Text in function
+#: comments.php:56
+msgid "Your Website"
+msgstr ""
+
+#. Text in echo
+#: functions.php:87
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: inc/widgets/recent_comments.php:38
+msgid "commented on"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:605
+msgid "in the future"
+msgstr ""
+
+#. Text in echo
+#: footer.php:14
+msgid "is powered by"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:605
+msgid "less than one minute ago"
+msgstr ""
+
+#. Text in function
+#: inc/circathemes-helper.php:605
+msgid "now"
+msgstr ""
+
+#. Text in echo
+#: inc/metaboxes.php:39
+msgid "use the video id if you choose vimeo or youtube provider, and video URL if you choose self hosted video"
+msgstr ""

@@ -1,0 +1,315 @@
+#container{
+	max-width:1000px;
+	min-width:1000px;
+	overflow:hidden;
+}
+
+#logo{
+	text-align:left;
+}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	width: 100%;
+}
+/***** Grid Options down here, where they are usable ******/
+/* layout options ( all have margins right & left of 1%) */
+.col140 { width:140px; } 
+.col220 { width:200px; } 
+.col300 { width:300px; } 
+.col380 { width:380px; } 
+.col480 { width:480px; } 
+.col540 { width:540px; } 
+.col620 { width:620px; } 
+.col700 { width:700px; } 
+.col780 { width:780px; } 
+.col860 { width:860px; } 
+.col940 { width:940px; } 
+
+/* layout & column defaults */
+.col60, .col140, .col220, .col300, .col380, .col480, .col540, .col620, .col700, .col780, .col860, .col940 { 
+	display: inline;
+	float: left;
+	position: relative;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+/* floats */
+.left { float: left; }
+.right { float: right; }
+
+/* default styles & fixes */
+.first { margin-left: 0; } /* fixes alignment */
+.last { margin-right: 0; } /* fixes alignment */
+
+
+/*********************
+HEADER SYTLES
+*********************/
+
+.header {}
+#logo { margin:20px 0 15px;font-size:48px;font-weight:bold;letter-spacing:-0.05em; }
+#logo a{ color:#000; }
+
+#searchform{
+	overflow:hidden;
+}
+#searchform #searchsubmit{
+	padding-left:50px ;
+	right:-30px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav { 
+	border-top:#ddd 1px dotted;
+	float:none;
+	clear:both;
+}
+
+.nav .menu { 
+	margin:0;
+}
+	
+.nav .menu ul {
+	margin:0;
+	border-bottom:none;
+	padding-bottom:0;
+}
+		
+.nav .menu li {
+	float: left;
+	position: relative;
+	border-left:#ddd 1px dotted;
+	width:auto;
+}
+.nav .menu > li:last-child{
+	border-right:#ddd 1px dotted;
+}
+.nav .menu li a {
+	border-bottom: 0;
+	display:block;
+	background:none;
+	color:#222;
+	font-size:1.143em;
+	border-right:none;
+	border-bottom:none;
+	border-top:none;
+	padding:0.65em 1.071em;
+}
+.nav .menu li:after {
+	content:"";
+}
+.nav .menu > li:hover > a, .nav .menu > li.current-menu-item > a, 
+.nav .menu > li.current_page_item > a,
+.nav .menu > li.current-page-ancestor > a {
+	color:#c22;
+}
+
+/*
+plan your menus and drop-downs wisely.
+*/
+.nav .menu ul li ul {
+	background:#fff;
+	text-transform:none;
+	width: 180px;
+	border: 1px solid #ddd;
+	position: absolute;
+	top:0;
+	display: none;
+	z-index: 8999;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0;
+}
+					
+/* show the dropdowns on hover */
+.nav .menu ul li:hover > ul {
+	top: auto;
+	display: block;
+	margin-left:-1px;
+}
+.nav .menu ul ul li {
+	display:block;
+	float:none;
+	padding:0;
+	text-align:left;
+	border-left:none;
+}
+.nav .menu ul ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:1em;
+	text-transform:none;
+	font-weight:normal;
+	border-right: 0;
+	display: block;
+	margin:0 1.5em;
+	padding:0.357em 5px 0.357em 0;
+	border-bottom:#ddd 1px solid !important;
+}
+.nav .menu ul ul li a:hover{
+	color:#c22;
+}
+.nav .menu ul ul li:first-child a {}
+.nav .menu ul ul li:last-child > a {
+	border-bottom: 0 !important;
+}
+
+.nav .menu ul ul ul{
+	margin-top:-2.143em;
+	left:180px;
+}
+
+/* 
+more levels
+*/
+.nav .menu ul li:hover ul ul { }
+.nav .menu .has-child > a{
+	background: url(library/images/arrow-little.png) right 50% no-repeat;
+}
+
+#headline-carousel{
+	display:block;
+}
+#headline-carousel .loop-items article{
+	/*width:207px;*/
+}
+#breadcrumbs a{
+	margin-right:20px;
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+#main .home-thumb{
+	width:auto;
+	max-width:35%;
+	float:left;
+	margin-bottom:0.714em;
+	margin-right:1.428em;
+}
+#main .home-thumb img{
+	margin-bottom:-5px;
+}
+
+/*#main .default-post header, #main .default-post .post_content, #main .default-post footer {
+	padding-left:39%;
+}*/
+
+.home #inner-content, .archive #inner-content, .single #inner-content, 
+.page #inner-content, .search #inner-content, .error404 #inner-content { 
+	position:relative;
+	background:url(../../library/images/dot.png) 660px top repeat-y;
+}
+
+.single #main, .page-default #main, .archive #main{
+	border-top:#ddd 1px solid;
+}
+.single #main h1.post-title, #featured-posts .loop-items article .h1{ 
+	font-size: 2.857em;
+	line-height: 1.2em;
+}
+
+.post-nav{
+	/*border-top:none;*/
+}
+.post-nav a{
+	display:block;
+	width:40%;
+	padding:15px 0;
+	text-decoration:none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+.archive #main{
+	border-top:none;
+	position:relative;
+}
+.page-navigation{
+	margin-bottom:20px;
+}
+.page-of {
+	display:none;
+	
+}
+#respond #comment-form-elements li{
+	border:none;
+	overflow:visible;
+}
+#respond #comment-form-elements li input{
+	border:#ddd 1px solid;
+	width:300px;
+}
+#comment-form-elements label{
+	display:inline;
+}
+#comment{
+	width:600px;
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+.widgettitle{
+	
+}
+.sidebar iframe{
+	max-width:100%;
+}
+.widget li {
+	margin-bottom: 0.75em;
+}
+.widget li ul {
+	margin-top: 0.75em;
+	padding-left: 1em;
+}
+
+.widget_nav_menu .icon-rss, .widget_nav_menu .icon-facebook, .widget_nav_menu .icon-twitter, .widget_nav_menu .icon-twitter,
+.icon-icq, .widget_nav_menu .icon-github, .widget_nav_menu .icon-google, .widget_nav_menu .icon-skype,
+.widget_nav_menu .icon-vimeo, .widget_nav_menu .icon-tumblr, .widget_nav_menu .icon-youtube{ 
+	display:block;
+	speak: none;
+	position:relative;
+	padding-left:25px;
+	text-align:left;
+	float:left;
+	width:40%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.icon-rss:before, .icon-facebook:before, .icon-twitter:before, .icon-twitter:before,
+.icon-icq:before, .icon-github:before, .icon-google:before, .icon-skype:before,
+.icon-vimeo:before, .icon-tumblr:before, .icon-youtube:before { 
+	font-family: 'fontello' !important;
+	font-style: normal;
+	zoom:1;
+	position:absolute; 
+	left:0;
+ }
+	
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	position:relative;
+}
+#inner-footer{
+	position:relative;
+}
+.attribution{
+	width:960px;
+}
